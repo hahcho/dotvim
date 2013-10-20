@@ -1,3 +1,11 @@
+---PLUGINS---
+
+vim-endwise
+vim-commandt
+vim-python_mode
+
+---INSTALL---
+
 --- Command T plugin ---
 After installing or updating you must build the extension:
 
