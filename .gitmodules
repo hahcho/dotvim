@@ -10,6 +10,6 @@
 [submodule ".vim/bundle/vim-endwise"]
 	path = .vim/bundle/vim-endwise
 	url = git://github.com/tpope/vim-endwise.git
-[submodule ".vim/bundle/bufexplorer"]
-	path = .vim/bundle/bufexplorer
-	url = https://github.com/jlanzarotta/bufexplorer.git
+[submodule ".vim/bundle/minibufexpl"]
+	path = .vim/bundle/minibufexpl
+	url = https://github.com/fholgado/minibufexpl.vim.git

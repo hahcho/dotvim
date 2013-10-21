@@ -16,5 +16,15 @@ set expandtab
 set shiftwidth=4 
 set softtabstop=4
 
-" Automatic removal of all trailing whitespaces
+" Explicitly map the <Leader> key
+let mapleader = '\'
+
+" Automatic removal of all trailing whitespaces when file is saved
 autocmd FileType c,cpp,python,ruby autocmd BufWritePre <buffer> :%s/\s\+$//e 
+
+" Set custom key binding for MiniBufExpl
+
+" Cycle buffer forwards
+" noremap <silent><Leader><Tab> :MBEbn<CR>
+" Cycle buffer backwards
+" noremap <silent><Leader><S-Tab> :MBEbp<CR>

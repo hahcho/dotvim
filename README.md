@@ -3,7 +3,6 @@
 vim-endwise
 vim-commandt
 vim-python_mode
-vim-bufexplorer
 
 ---INSTALL---
 
