@@ -23,7 +23,7 @@ let mapleader = '\'
 autocmd FileType c,cpp,python,ruby autocmd BufWritePre <buffer> :%s/\s\+$//e 
 
 "Add unit open search files to behave like Commmnad-T
-nnoremap t :Unite -start-insert file
+nnoremap t :Unite -start-insert file<CR>
 
 " Set custom key binding for MiniBufExpl
 
