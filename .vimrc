@@ -22,6 +22,9 @@ let mapleader = '\'
 " Automatic removal of all trailing whitespaces when file is saved
 autocmd FileType c,cpp,python,ruby autocmd BufWritePre <buffer> :%s/\s\+$//e 
 
+"Add unit open search files to behave like Commmnad-T
+nnoremap t :Unite -start-insert file
+
 " Set custom key binding for MiniBufExpl
 
 " Cycle buffer forwards
