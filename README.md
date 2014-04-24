@@ -1,20 +1,16 @@
----PLUGINS---
+Dotvim
+======
 
-vim-endwise
-vim-commandt
-vim-python_mode
-vim-tcomment
 
----INSTALL---
+Plugins
+-------
 
---- Command T plugin ---
-After installing or updating you must build the extension:
 
-  cd ~/.vim/bundle/command-t/ruby/command-t
-  ruby extconf.rb
-  make
-
-While the Vimball installation automatically generates the help tags, under
-Pathogen it is necessary to do so explicitly from inside Vim:
-
-  :call pathogen#helptags()
+*  [TComment](https://github.com/tomtom/tcomment_vim)
+*  [Tabular](https://github.com/godlygeek/tabular)
+*  [Endwise](https://github.com/tpope/vim-endwise)
+*  [Fugitive](https://github.com/tpope/vim-fugitive)
+*  [Pathogen](https://github.com/tpope/vim-pathogen)
+*  [Unite](https://github.com/Shougo/unite.vim)
+*  [RSpec](https://github.com/thoughtbot/vim-rspec)
+*  [Python-Mode](https://github.com/klen/python-mode)
