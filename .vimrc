@@ -22,12 +22,18 @@ let mapleader = '\'
 " Automatic removal of all trailing whitespaces when file is saved
 autocmd FileType c,cpp,python,ruby autocmd BufWritePre <buffer> :%s/\s\+$//e 
 
-"Add unit open search files to behave like Commmnad-T
-nnoremap t :Unite -start-insert file<CR>
+"Add unite open search files to behave like Commmnad-T
+" call unite#filters#matcher_default#use(['matcher_fuzzy'])
+nnoremap <leader>t :<C-u>Unite -start-insert file_rec/async:!<CR>
+"Add unite most recently used key-binding
+nnoremap <leader>r :<C-u>Unite -start-insert file_mru<CR>
+"Add unite file navigation from current directory
+nnoremap <leader>f :<C-u>Unite -start-insert file<CR>
+"Make Unite file cache bigger for projects with deep hierarchy
+let g:unite_source_rec_max_cache_files=10000
 
-" Set custom key binding for MiniBufExpl
 
-" Cycle buffer forwards
-" noremap <silent><Leader><Tab> :MBEbn<CR>
-" Cycle buffer backwards
-" noremap <silent><Leader><S-Tab> :MBEbp<CR>
+"Change rspec command for vim-rspec
+let g:rspec_command = "!clear && echo bundle exec rspec {spec} && bundle exec rspec {spec}"
+"Add rspec plugin mappings
+nnoremap <leader>s :call RunCurrentSpecFile()<CR>
