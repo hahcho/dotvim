@@ -15,3 +15,4 @@ Plugins
 *  [RSpec](https://github.com/thoughtbot/vim-rspec)
 *  [Python-Mode](https://github.com/klen/python-mode)
 *  [Ack](https://github.com/mileszs/ack.vim)
+*  [Surround](https://github.com/tpope/vim-surround)
