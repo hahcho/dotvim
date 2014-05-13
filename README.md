@@ -16,3 +16,4 @@ Plugins
 *  [Python-Mode](https://github.com/klen/python-mode)
 *  [Ack](https://github.com/mileszs/ack.vim)
 *  [Surround](https://github.com/tpope/vim-surround)
+*  [Repeat](https://github.com/tpope/vim-repeat)
