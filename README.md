@@ -17,3 +17,5 @@ Plugins
 *  [Ack](https://github.com/mileszs/ack.vim)
 *  [Surround](https://github.com/tpope/vim-surround)
 *  [Repeat](https://github.com/tpope/vim-repeat)
+*  [NERDTree](https://github.com/scrooloose/nerdtree)
+*  [BufExplorer](https://github.com/scrooloose/nerdtree)
