@@ -19,3 +19,6 @@ Plugins
 *  [Repeat](https://github.com/tpope/vim-repeat)
 *  [NERDTree](https://github.com/scrooloose/nerdtree)
 *  [BufExplorer](https://github.com/scrooloose/nerdtree)
+*  [EasyTags](https://github.com/xolox/vim-easytags)
+
+    > [Vim-misc](https://github.com/xolox/vim-misc)
