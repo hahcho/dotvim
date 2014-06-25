@@ -37,3 +37,13 @@ let g:unite_source_rec_max_cache_files=10000
 let g:rspec_command = "!clear && echo bundle exec rspec {spec} && bundle exec rspec {spec}"
 "Add rspec plugin mappings
 nnoremap <leader>s :call RunCurrentSpecFile()<CR>
+
+map <Up> <nop>
+map <Down> <nop>
+map <Left> <nop>
+map <Right> <nop>
+
+imap <Up> <nop>
+imap <Down> <nop>
+imap <Left> <nop>
+imap <Right> <nop>
