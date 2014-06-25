@@ -21,4 +21,4 @@ Plugins
 *  [BufExplorer](https://github.com/scrooloose/nerdtree)
 *  [EasyTags](https://github.com/xolox/vim-easytags)
 
-    > [Vim-misc](https://github.com/xolox/vim-misc)
+    * [Vim-misc](https://github.com/xolox/vim-misc)
