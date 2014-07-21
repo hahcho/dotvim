@@ -13,12 +13,6 @@
 [submodule ".vim/bundle/tcomment"]
 	path = .vim/bundle/tcomment
 	url = https://github.com/tomtom/tcomment_vim.git
-[submodule ".vim/bundle/unite"]
-	path = .vim/bundle/unite
-	url = https://github.com/Shougo/unite.vim.git
-[submodule ".vim/bundle/neomru"]
-	path = .vim/bundle/neomru
-	url = https://github.com/Shougo/neomru.vim.git
 [submodule ".vim/bundle/vimproc"]
 	path = .vim/bundle/vimproc
 	url = https://github.com/Shougo/vimproc.vim
