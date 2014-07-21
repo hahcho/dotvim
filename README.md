@@ -19,3 +19,4 @@ Plugins
 *  [BufExplorer](https://github.com/scrooloose/nerdtree)
 *  [CtrlP](https://github.com/kien/ctrlp.vim)
 *  [Python.vim](https://github.com/hdima/python-syntax)
+*  [Rails.vim] (https://github.com/tpope/vim-rails)
