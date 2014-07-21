@@ -47,3 +47,5 @@ imap <Up> <nop>
 imap <Down> <nop>
 imap <Left> <nop>
 imap <Right> <nop>
+
+map <F10> :e ~/.vimrc<CR>
