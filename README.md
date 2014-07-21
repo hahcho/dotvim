@@ -18,3 +18,4 @@ Plugins
 *  [Repeat](https://github.com/tpope/vim-repeat)
 *  [NERDTree](https://github.com/scrooloose/nerdtree)
 *  [BufExplorer](https://github.com/scrooloose/nerdtree)
+*  [CtrlP](https://github.com/kien/ctrlp.vim)
