@@ -21,6 +21,8 @@ let mapleader = '\'
 
 " Mapping for BufExplorer
 nnoremap <leader>b :BufExplorer<CR>
+" Mapping for NERDTree
+nnoremap <leader>f :NERDTreeToggle<CR>
 
 " Automatic removal of all trailing whitespaces when file is saved
 autocmd FileType c,cpp,python,ruby autocmd BufWritePre <buffer> :%s/\s\+$//e 

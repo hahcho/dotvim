@@ -21,3 +21,5 @@ Plugins
 *  [Python.vim](https://github.com/hdima/python-syntax)
 *  [Rails.vim](https://github.com/tpope/vim-rails)
 *  [Syntastic](https://github.com/scrooloose/syntastic)
+*  [Ruby-vim](https://github.com/vim-ruby/vim-ruby)
+*  [Markdown-Previeewer](https://github.com/mkitt/markdown-preview.vim)
