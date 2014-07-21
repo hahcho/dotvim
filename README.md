@@ -11,7 +11,6 @@ Plugins
 *  [Endwise](https://github.com/tpope/vim-endwise)
 *  [Fugitive](https://github.com/tpope/vim-fugitive)
 *  [Pathogen](https://github.com/tpope/vim-pathogen)
-*  [Unite](https://github.com/Shougo/unite.vim)
 *  [RSpec](https://github.com/thoughtbot/vim-rspec)
 *  [Python-Mode](https://github.com/klen/python-mode)
 *  [Ack](https://github.com/mileszs/ack.vim)
