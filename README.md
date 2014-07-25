@@ -23,3 +23,5 @@ Plugins
 *  [Syntastic](https://github.com/scrooloose/syntastic)
 *  [Ruby-vim](https://github.com/vim-ruby/vim-ruby)
 *  [Haml](https://github.com/tpope/vim-haml)
+*  [Javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
+*  [Javascript](https://github.com/pangloss/vim-javascript)
