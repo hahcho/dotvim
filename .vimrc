@@ -9,6 +9,8 @@ filetype on
 filetype plugin indent on
 syntax on
 
+colorscheme solarized
+
 " Some basic setup for all files
 set number
 set tabstop=8 
