@@ -25,3 +25,4 @@ Plugins
 *  [Haml](https://github.com/tpope/vim-haml)
 *  [Javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
 *  [Javascript](https://github.com/pangloss/vim-javascript)
+*  [CoffeScript](https://github.com/kchmck/vim-coffee-script)
