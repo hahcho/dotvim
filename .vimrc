@@ -49,3 +49,6 @@ map <F10> :e ~/.vimrc<CR>
 
 " Set up syntastic checkers
 let g:syntastic_javascript_checkers = ['jshint']
+
+" Set up vim-notes
+:let g:notes_directories = ['~/notes']
