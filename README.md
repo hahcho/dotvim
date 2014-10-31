@@ -25,4 +25,5 @@ Plugins
 *  [Haml](https://github.com/tpope/vim-haml)
 *  [Javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
 *  [Javascript](https://github.com/pangloss/vim-javascript)
+*  [Solarized-colorscheme](https://github.com/altercation/vim-colors-solarized)
 *  [CoffeScript](https://github.com/kchmck/vim-coffee-script)
