@@ -52,3 +52,8 @@ let g:syntastic_javascript_checkers = ['jshint']
 
 " Set up vim-notes
 :let g:notes_directories = ['~/notes']
+
+" Show airline status all the time
+set laststatus=2
+" Use powerline fonts
+let g:airline_powerline_fonts = 1

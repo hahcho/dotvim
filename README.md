@@ -28,3 +28,4 @@ Plugins
 *  [Solarized-colorscheme](https://github.com/altercation/vim-colors-solarized)
 *  [CoffeScript](https://github.com/kchmck/vim-coffee-script)
 *  [Vim-Notes](https://github.com/xolox/vim-notes)
+*  [Vim-Airline](https://github.com/bling/vim-airline)
