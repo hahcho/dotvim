@@ -57,3 +57,9 @@ let g:syntastic_javascript_checkers = ['jshint']
 set laststatus=2
 " Use powerline fonts
 let g:airline_powerline_fonts = 1
+
+" When text is wrapped, move up and down by visual lines.
+nnoremap j gj
+vnoremap j gj
+nnoremap k gk
+vnoremap k gk
