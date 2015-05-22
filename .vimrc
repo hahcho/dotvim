@@ -6,6 +6,7 @@ call pathogen#helptags()
 
 syntax on
 filetype on
+filetype indent on
 filetype plugin indent on
 syntax on
 
@@ -34,6 +35,7 @@ autocmd FileType c,cpp,python,ruby autocmd BufWritePre <buffer> :%s/\s\+$//e
 let g:rspec_command = "!clear && echo bundle exec rspec {spec} && bundle exec rspec {spec}"
 "Add rspec plugin mappings
 nnoremap <leader>s :call RunCurrentSpecFile()<CR>
+nnoremap <leader>n :call RunNearestSpec()<CR>
 
 map <Up> <nop>
 map <Down> <nop>
