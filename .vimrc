@@ -66,3 +66,6 @@ nnoremap j gj
 vnoremap j gj
 nnoremap k gk
 vnoremap k gk
+
+" Make exiting insert mode easier
+imap jk <Esc>
