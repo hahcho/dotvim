@@ -32,3 +32,4 @@ Plugins
 *  [Gundo](https://github.com/sjl/gundo.vim)
 *  [GitV](https://github.com/gregsexton/gitv)
 *  [Vim RuboCop](https://github.com/ngmy/vim-rubocop)
+*  [Utl](https://github.com/vim-scripts/utl.vim)
