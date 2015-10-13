@@ -33,3 +33,4 @@ Plugins
 *  [GitV](https://github.com/gregsexton/gitv)
 *  [Vim RuboCop](https://github.com/ngmy/vim-rubocop)
 *  [Utl](https://github.com/vim-scripts/utl.vim)
+*  [Vim-go](https://github.com/fatih/vim-go)

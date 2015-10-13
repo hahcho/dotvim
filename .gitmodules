@@ -94,3 +94,6 @@
 [submodule ".vim/bundle/utl.vim"]
 	path = .vim/bundle/utl.vim
 	url = https://github.com/vim-scripts/utl.vim
+[submodule ".vim/bundle/vim-go"]
+	path = .vim/bundle/vim-go
+	url = https://github.com/fatih/vim-go
