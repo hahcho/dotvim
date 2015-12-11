@@ -11,7 +11,7 @@ Plugins
 *  [Endwise](https://github.com/tpope/vim-endwise)
 *  [Fugitive](https://github.com/tpope/vim-fugitive)
 *  [Pathogen](https://github.com/tpope/vim-pathogen)
-*  [RSpec](https://github.com/thoughtbot/vim-rspec)
+*  [test.vim](https://github.com/janko-m/vim-test)
 *  [Ack](https://github.com/mileszs/ack.vim)
 *  [Surround](https://github.com/tpope/vim-surround)
 *  [Repeat](https://github.com/tpope/vim-repeat)

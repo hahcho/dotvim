@@ -34,8 +34,8 @@ autocmd FileType c,cpp,python,ruby autocmd BufWritePre <buffer> :%s/\s\+$//e
 "Change rspec command for vim-rspec
 let g:rspec_command = "!clear && echo bundle exec rspec {spec} && bundle exec rspec {spec}"
 "Add rspec plugin mappings
-nnoremap <leader>s :call RunCurrentSpecFile()<CR>
-nnoremap <leader>n :call RunNearestSpec()<CR>
+nmap <silent> <leader>s :TestFile<CR>
+nmap <silent> <leader>n :TestNearest<CR>
 
 map <Up> <nop>
 map <Down> <nop>
