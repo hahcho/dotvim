@@ -36,3 +36,4 @@ Plugins
 *  [Vim-go](https://github.com/fatih/vim-go)
 *  [vim-slim](https://github.com/slim-template/vim-slim)
 *  [rust.vim](https://github.com/rust-lang/rust.vim)
+*  [ag.vim](https://github.com/rking/ag.vim)
