@@ -32,7 +32,6 @@ Plugins
 *  [Gundo](https://github.com/sjl/gundo.vim)
 *  [GitV](https://github.com/gregsexton/gitv)
 *  [Vim RuboCop](https://github.com/ngmy/vim-rubocop)
-*  [Utl](https://github.com/vim-scripts/utl.vim)
 *  [Vim-go](https://github.com/fatih/vim-go)
 *  [vim-slim](https://github.com/slim-template/vim-slim)
 *  [rust.vim](https://github.com/rust-lang/rust.vim)
