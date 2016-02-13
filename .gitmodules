@@ -109,3 +109,6 @@
 [submodule ".vim/bundle/ag.vim"]
 	path = .vim/bundle/ag.vim
 	url = https://github.com/rking/ag.vim.git
+[submodule ".vim/bundle/vim-fakeclip"]
+	path = .vim/bundle/vim-fakeclip
+	url = https://github.com/congma/vim-fakeclip

@@ -37,3 +37,4 @@ Plugins
 *  [vim-slim](https://github.com/slim-template/vim-slim)
 *  [rust.vim](https://github.com/rust-lang/rust.vim)
 *  [ag.vim](https://github.com/rking/ag.vim)
+*  [vim-fakeclip](https://github.com/congma/vim-fakeclip)
