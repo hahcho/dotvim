@@ -69,3 +69,6 @@ vnoremap k gk
 
 " Make exiting insert mode easier
 imap jk <Esc>
+
+" Change notes.vim coloring settings
+highlight notesDoneMarker cterm=bold ctermbg=2 ctermfg=white
