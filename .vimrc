@@ -72,3 +72,7 @@ imap jk <Esc>
 
 " Change notes.vim coloring settings
 highlight notesDoneMarker cterm=bold ctermbg=2 ctermfg=white
+highlight notesInProgress cterm=bold ctermbg=4 ctermfg=white
+highlight notesTodo       cterm=bold ctermbg=3 ctermfg=white
+highlight notesFixMe      cterm=bold ctermbg=1 ctermfg=white
+highlight notesXXX        cterm=bold ctermbg=9 ctermfg=white
