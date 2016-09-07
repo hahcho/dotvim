@@ -1,6 +1,11 @@
 Dotvim
 ======
 
+Install
+-------
+
+Run `./install.sh`
+
 
 Plugins
 -------
