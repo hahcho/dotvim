@@ -42,3 +42,4 @@ Plugins
 *  [rust.vim](https://github.com/rust-lang/rust.vim)
 *  [ag.vim](https://github.com/rking/ag.vim)
 *  [vim-fakeclip](https://github.com/congma/vim-fakeclip)
+*  [vim-elixir](https://github.com/elixir-lang/vim-elixir)

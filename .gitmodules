@@ -109,3 +109,6 @@
 [submodule ".vim/bundle/vim-fakeclip"]
 	path = .vim/bundle/vim-fakeclip
 	url = https://github.com/congma/vim-fakeclip
+[submodule ".vim/bundle/vim-elixir"]
+	path = .vim/bundle/vim-elixir
+	url = https://github.com/elixir-lang/vim-elixir.git
