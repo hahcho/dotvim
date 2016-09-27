@@ -44,3 +44,4 @@ Plugins
 *  [vim-fakeclip](https://github.com/congma/vim-fakeclip)
 *  [vim-elixir](https://github.com/elixir-lang/vim-elixir)
 *  [vim-eunuch](https://github.com/tpope/vim-eunuch)
+*  [vim-rsi](https://github.com/tpope/vim-rsi)
