@@ -1,14 +1,8 @@
-" Pathogen connected stuff
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-filetype off
-call pathogen#infect('bundle/{}')
-call pathogen#helptags()
-
+set t_Co=16
 syntax on
 filetype on
 filetype indent on
 filetype plugin indent on
-syntax on
 
 colorscheme solarized
 
@@ -26,16 +20,19 @@ let mapleader = '\'
 nnoremap <leader>b :BufExplorer<CR>
 " Mapping for NERDTree
 nnoremap <leader>f :NERDTreeToggle<CR>
+" Mapping for Fugitive
+nnoremap <leader>g :Gstatus<CR>
+" Mappings for Tern TODO move in a separate file
+nnoremap <leader>d :TernDef<CR>
+nnoremap <leader>r :TernRename<CR>
+" Search with Ag the word under the cursor
+nnoremap <leader>a yiw:Ag <C-r>0<CR>
 
 " Automatic removal of all trailing whitespaces when file is saved
 autocmd FileType c,cpp,python,ruby autocmd BufWritePre <buffer> :%s/\s\+$//e 
 
-
-"Change rspec command for vim-rspec
-let g:rspec_command = "!clear && echo bundle exec rspec {spec} && bundle exec rspec {spec}"
-"Add rspec plugin mappings
-nmap <silent> <leader>s :TestFile<CR>
-nmap <silent> <leader>n :TestNearest<CR>
+" Remove Ex mode
+map Q <nop>
 
 map <Up> <nop>
 map <Down> <nop>
@@ -48,10 +45,7 @@ imap <Left> <nop>
 imap <Right> <nop>
 
 map <F10> :e ~/.vimrc<CR>
-
-" Set up syntastic checkers
-let g:syntastic_javascript_checkers = ['jshint']
-let g:syntastic_python_checkers = ['pep8']
+map <F12> :source ~/.vimrc<CR>
 
 " Set up vim-notes
 :let g:notes_directories = ['~/notes']
@@ -76,3 +70,11 @@ highlight notesInProgress cterm=bold ctermbg=4 ctermfg=white
 highlight notesTodo       cterm=bold ctermbg=3 ctermfg=white
 highlight notesFixMe      cterm=bold ctermbg=1 ctermfg=white
 highlight notesXXX        cterm=bold ctermbg=9 ctermfg=white
+
+set wildmenu
+set formatoptions+=j " Delete comment character when joining commented lines
+
+set rtp+=/usr/bin/fzf
+
+" a hacky way to transition to FZF from ctrl p
+nnoremap <c-p> :Files<CR>
