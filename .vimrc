@@ -5,6 +5,7 @@ Plug 'junegunn/fzf.vim' | Plug '/usr/bin/fzf'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
 Plug 'altercation/vim-colors-solarized'
 Plug 'xolox/vim-notes' | Plug 'xolox/vim-misc'
 
@@ -24,8 +25,11 @@ highlight notesTodo       cterm=bold ctermbg=3 ctermfg=white
 highlight notesFixMe      cterm=bold ctermbg=1 ctermfg=white
 highlight notesXXX        cterm=bold ctermbg=9 ctermfg=white
 
-colorscheme solarized
 
+set laststatus=2 " Show airline status all the time
+let g:airline_powerline_fonts = 1 " Use powerline fonts
+
+colorscheme solarized
 set t_Co=16
 syntax on
 filetype on
@@ -61,11 +65,6 @@ imap <Right> <nop>
 
 map <F10> :e ~/.vimrc<CR>
 map <F12> :source ~/.vimrc<CR>
-
-" Show airline status all the time
-set laststatus=2
-" Use powerline fonts
-let g:airline_powerline_fonts = 1
 
 " When text is wrapped, move up and down by visual lines.
 nnoremap j gj
