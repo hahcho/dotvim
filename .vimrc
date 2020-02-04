@@ -8,6 +8,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'altercation/vim-colors-solarized'
 Plug 'xolox/vim-notes' | Plug 'xolox/vim-misc'
+Plug 'tomtom/tcomment_vim'
 
 call plug#end()
 
