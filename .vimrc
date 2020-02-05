@@ -9,11 +9,12 @@ Plug 'vim-airline/vim-airline'
 Plug 'altercation/vim-colors-solarized'
 Plug 'xolox/vim-notes' | Plug 'xolox/vim-misc'
 Plug 'tomtom/tcomment_vim'
+Plug 'tpope/vim-surround'
 
 call plug#end()
 
 nnoremap <leader>b :BufExplorer<CR>
-nnoremap <leader>a yiw:Rg <C-r>0<CR>
+nnoremap <leader>a yiw:Ag <C-r>0<CR>
 nnoremap <leader>f :NERDTreeToggle<CR>
 nnoremap <leader>g :Gstatus<CR>
 nnoremap <c-p> :Files<CR>
