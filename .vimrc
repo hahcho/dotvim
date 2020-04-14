@@ -10,6 +10,8 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'xolox/vim-notes' | Plug 'xolox/vim-misc'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-surround'
+Plug 'Glench/Vim-Jinja2-Syntax'
+Plug 'chr4/nginx.vim'
 
 call plug#end()
 
@@ -18,6 +20,8 @@ nnoremap <leader>a yiw:Ag <C-r>0<CR>
 nnoremap <leader>f :NERDTreeToggle<CR>
 nnoremap <leader>g :Gstatus<CR>
 nnoremap <c-p> :Files<CR>
+
+nnoremap <leader>d :r !date<CR>
 
 let g:notes_directories = ['~/notes']
 " Change notes.vim coloring settings
