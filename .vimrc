@@ -36,6 +36,7 @@ set laststatus=2 " Show airline status all the time
 let g:airline_powerline_fonts = 1 " Use powerline fonts
 
 colorscheme solarized
+set background=dark
 set t_Co=16
 syntax on
 filetype on
