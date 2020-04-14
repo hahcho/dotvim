@@ -5,7 +5,7 @@ Install
 -------
 
 Run `./install.sh`
-
+Open vim and execute `:PlugInstall`
 
 Keybindngs
 ----------
